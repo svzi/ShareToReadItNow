@@ -1,4 +1,4 @@
-ShareToReadItNow
+Share To ReadItNow
 --------------
 Sample BlackBerry 10 app to demonstrate how to integrate Pocket via ReadItNow
 
