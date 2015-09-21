@@ -26,28 +26,28 @@
 
     <!-- A universally unique application identifier. Must be unique across all BlackBerry 10 applications.
          Using a reverse DNS-style name as the id is recommended. (Eg. com.example.ExampleApplication.) Required. -->
-    <id>com.example.ShareToExampleApp</id>
+    <id>com.example.ShareToReadItNow</id>
     <configuration name="Device-Debug">
        <platformArchitecture>armle-v7</platformArchitecture>
-       <asset path="arm/o.le-v7-g/ShareToExampleApp" entry="true" type="Qnx/Elf">ShareToExampleApp</asset>
+       <asset path="arm/o.le-v7-g/ShareToReadItNow" entry="true" type="Qnx/Elf">ShareToReadItNow</asset>
     </configuration>
     <configuration name="Device-Release">
        <entryPointType>Qnx/Cascades</entryPointType>
        <platformArchitecture>armle-v7</platformArchitecture>
-       <asset path="arm/o.le-v7/ShareToExampleApp.so" entry="true" type="Qnx/Elf">ShareToExampleApp.so</asset>
+       <asset path="arm/o.le-v7/ShareToReadItNow.so" entry="true" type="Qnx/Elf">ShareToReadItNow.so</asset>
     </configuration>
     <configuration name="Device-Profile">
        <platformArchitecture>armle-v7</platformArchitecture>
-       <asset path="arm-p/o.le-v7-g/ShareToExampleApp" entry="true" type="Qnx/Elf">ShareToExampleApp</asset>
+       <asset path="arm-p/o.le-v7-g/ShareToReadItNow" entry="true" type="Qnx/Elf">ShareToReadItNow</asset>
     </configuration>
     <configuration name="Simulator-Debug">
        <platformArchitecture>x86</platformArchitecture>
-       <asset path="x86/o-g/ShareToExampleApp" entry="true" type="Qnx/Elf">ShareToExampleApp</asset>
+       <asset path="x86/o-g/ShareToReadItNow" entry="true" type="Qnx/Elf">ShareToReadItNow</asset>
     </configuration>
 
     <!-- The name that is displayed in the BlackBerry 10 application installer.
          May have multiple values for each language. See samples or xsd schema file. Optional. -->
-    <name>ShareToExampleApp</name>
+    <name>Share To ReadItNow</name>
 
     <!-- A string value of the format <0-999>.<0-999>.<0-999> that represents application version which can be used to check for application upgrade.
          Values can also be 1-part or 2-part. It is not necessary to have a 3-part value.
@@ -63,7 +63,7 @@
 
     <!-- Description, displayed in the BlackBerry 10 application installer.
          May have multiple values for each language. See samples or xsd schema file. Optional. -->
-    <description>The ShareToExampleApp application</description>
+    <description>The ShareToReadItNow application</description>
 
     <!-- Copyright information. Optional. -->
     <!-- <copyright></copyright> -->

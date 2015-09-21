@@ -1,4 +1,4 @@
-QMAKE_TARGET  = ShareToExampleApp
+QMAKE_TARGET  = ShareToReadItNow
 LUPDATE       = $(QNX_HOST)/usr/bin/lupdate
 LRELEASE      = $(QNX_HOST)/usr/bin/lrelease
 

@@ -33,7 +33,7 @@
     <name>main</name>
     <message>
         <location filename="../assets/main.qml" line="25"/>
-        <source>ShareToExampleApp</source>
+        <source>Share To ReadItNow</source>
         <translation type="unfinished"></translation>
     </message>
     <message>

@@ -1,4 +1,4 @@
-APP_NAME = ShareToExampleApp
+APP_NAME = ShareToReadItNow
 
 CONFIG += qt warn_on cascades10
 

@@ -22,7 +22,7 @@ NavigationPane {
     
     Page {
         titleBar: TitleBar {
-            title: qsTr("ShareToExampleApp")
+            title: qsTr("Share To ReadItNow")
         }
         
         ScrollView {
