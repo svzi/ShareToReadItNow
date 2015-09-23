@@ -36,9 +36,14 @@ ApplicationUI::ApplicationUI() :
     m_pTranslator = new QTranslator(this);
     m_pLocaleHandler = new LocaleHandler(this);
 
-    bool res = QObject::connect(m_pLocaleHandler, SIGNAL(systemLanguageChanged()), this, SLOT(onSystemLanguageChanged()));
+    bool res = QObject::connect(Application::instance(), SIGNAL(fullscreen()), this, SLOT(check3rdPartyApps()));
     // This is only available in Debug builds
     Q_ASSERT(res);
+
+    res = QObject::connect(m_pLocaleHandler, SIGNAL(systemLanguageChanged()), this, SLOT(onSystemLanguageChanged()));
+    // This is only available in Debug builds
+    Q_ASSERT(res);
+
     // Since the variable is not used in the app, this is added to avoid a
     // compiler warning
     Q_UNUSED(res);

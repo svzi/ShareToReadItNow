@@ -49,10 +49,10 @@ signals:
 
 private slots:
     void onSystemLanguageChanged();
+    void check3rdPartyApps();
     void onCheck3rdPartyAppsResponse();
 
 private:
-    void check3rdPartyApps();
 
     QTranslator* m_pTranslator;
     bb::cascades::LocaleHandler* m_pLocaleHandler;
